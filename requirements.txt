@@ -1,0 +1,10 @@
+cffi==1.17.1
+llvmlite==0.44.0
+numba==0.61.2
+numpy==2.2.6
+openvino==2025.1.0
+openvino-telemetry==2025.1.0
+packaging==25.0
+pycparser==2.22
+resampy==0.4.3
+soundfile==0.13.1
