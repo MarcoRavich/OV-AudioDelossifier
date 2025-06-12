@@ -1,6 +1,6 @@
 # Audio Delossifier
 
-Delossify compressed audio (mp3 and others) with Python and Tensorflow.
+Delossify compressed audio (mp3 and others) with Python and OpenVINO™.
 
 This repository attempts to improve the audio quality of lossy compression such as MP3.
 
@@ -16,17 +16,6 @@ Beside the python packages in requirements.txt you also need ffmpeg (on linux: '
 To install Tensorflow with GPU-support, please follow the instructions from the tensorflow website.
 
 It is recommended to use a virtual environment such as venv or conda.
-
-
-## Training
-
-1. Copy some uncompressed audio files (*.wav or *.flac) to the /training-data/uncompressed folder
-2. Set the Mp3BitRate and other configurations in audio_config.py
-3. Delete the corresponding weights-file in /models when you want to train from scratch
-4. Run audio-train.py
-
-This repository comes with pre-trained models for some typical mp3-bitrates.
-
 
 ## Inference (delossify files)
 
