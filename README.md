@@ -1,5 +1,5 @@
 # Introduction
-This is a "port" of (inference-only) [Detlef Kroll](https://github.com/kroll-software)'s [Audio Delossifier](https://github.com/kroll-software/AudioDelossifier#readme) to OpenVINO™.
+This is a "port" of (the inference-only part) [Detlef Kroll](https://github.com/kroll-software)'s [Audio Delossifier](https://github.com/kroll-software/AudioDelossifier#readme) to OpenVINO™.
 
 ## Audio Delossifier
 
